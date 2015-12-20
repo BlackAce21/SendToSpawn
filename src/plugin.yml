@@ -1,0 +1,15 @@
+name: SendToSpawn
+main: com.blackace.sendtospawn.SendToSpawn
+version: 1.0
+softdepend: [Essentials]
+commands:
+  sts:
+    description: Marks a player to be sent to spawn at next login ADMIN ONLY
+    permission: sendtospawn.use
+    permission-message: You do not have permission to use this command
+    usage: Syntax Error! /<command> help for help using this command
+
+permissions:
+  sendtospawn.use:
+    description: Allows use of the sendtospawn command
+    default: op
